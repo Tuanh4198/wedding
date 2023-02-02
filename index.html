@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Happy Wedding</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="Happy Wedding" />
+    <meta name="keywords" content="Happy Wedding" />
+    <meta name="author" content="Anh Nguyen & Quyen" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body class="preloading">
+    <!-- Loading animation -->
+    <div class="loading preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="main-container">
+      <!-- Header -->
+      <header id="header" class="header">
+        <div class="container clearfix">
+          <div class="logo-container">
+            <div class="header-logo">
+              Tuấn Anh <span class="main-color">&amp;</span> Vũ Quyên
+            </div>
+          </div>
+
+          <div class="header-date mobile-hidden">
+            <p>Friday, 24 <span class="main-color">February</span> 2023</p>
+          </div>
+          <a class="menu-toggle mobile-visible">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Site Navigation -->
+      <nav class="main-nav mobile-menu-hide">
+        <div class="container">
+          <ul class="nav navbar-nav" id="mainNav">
+            <li>
+              <a href="#home" class="active-item">Home</a>
+            </li>
+            <li>
+              <a href="#wedding-day">Our Day</a>
+            </li>
+            <li>
+              <a href="#events">Wedding Events</a>
+            </li>
+            <li>
+              <a href="#story">Our Story</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /Site Navigation -->
+
+      <div
+        class="sections"
+        style="
+          background-image: url(images/Valentines.png);
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+        data-stellar-background-ratio="0.3"
+      >
+        <!-- Home Section -->
+        <section id="home" class="home-section clearfix">
+          <div id="hs-image-block" class="hs-image-block">
+            <div class="hs-mask"></div>
+          </div>
+
+          <div class="hs-main-content container">
+            <div class="hs-section-title">
+              <h1>We’re Getting Married</h1>
+            </div>
+
+            <div class="about-us clearfix">
+              <div class="about-us-block first-block">
+                <div class="top-block">
+                  <div class="name">
+                    <h2>Tuấn Anh</h2>
+                    <ul class="social-links">
+                      <li>
+                        <a
+                          class="tip social-button"
+                          href="https://www.facebook.com/profile.php?id=100022928231297"
+                          title="Facebook"
+                        >
+                          <i class="fa fa-facebook"></i> Groom
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="photo">
+                    <img src="images/album/J_J07804.JPG" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="heart">
+                <img src="images/heart_img.png" alt="" />
+              </div>
+
+              <div class="about-us-block second-block">
+                <div class="top-block">
+                  <div class="name">
+                    <h2>Vũ Quyên</h2>
+                    <ul class="social-links">
+                      <li>
+                        <a
+                          class="tip social-button"
+                          href="https://www.facebook.com/profile.php?id=100013218482952"
+                          title="Facebook"
+                        >
+                          <i class="fa fa-facebook"></i> Bride
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="photo">
+                    <img src="images/album/J_J07819.JPG" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /Home Section -->
+
+        <!-- Our Day Section -->
+        <section id="wedding-day" class="wedding-day section-boxed" style="background: rgba(53,53,53,.3);">
+          <div class="container">
+            <div class="section-title">
+              <h2 style="color: white;">Friday, 24 <span class="main-color">February</span> 2023</h2>
+            </div>
+            <!-- Counter -->
+            <div class="alo-count-down">
+              <div
+                class="countdown caption count"
+                id="count"
+                data-timer="2/24/2023"
+              >
+                <div class="count-block days">
+                  <span class="time hidden">hidden</span>
+                </div>
+                <div class="count-block hours">
+                  <span class="time hidden">hidden</span>
+                </div>
+                <div class="count-block minutes">
+                  <span class="time hidden">hidden</span>
+                </div>
+                <div class="count-block seconds">
+                  <span class="time hidden">hidden</span>
+                </div>
+              </div>
+            </div>
+            <!-- Counter -->
+            <p class="description" style="color: white;">
+              Sự hiện diện của mọi người trong đám cưới của vợ chồng em sẽ giúp
+              kéo dài niềm vui, hạnh phúc và những nụ cười. Trân trọng!
+            </p>
+          </div>
+        </section>
+        <!-- /Our Day Section -->
+
+        <!-- Wedding Events Section -->
+        <section id="events" class="our-story section-boxed section-bg-color">
+          <div class="container">
+            <div class="section-title">
+              <h2>Wedding Events</h2>
+            </div>
+
+            <div class="row">
+              <!-- Ceremony Block -->
+              <div class="col-md-6 event-block">
+                <div class="event-photo scale-image-effect">
+                  <img src="images/album/J_J08348.JPG" alt="" />
+                </div>
+
+                <div class="event-title">
+                  <h3>Groom's house</h3>
+                </div>
+
+                <div class="event-info">
+                  <div class="event-date">
+                    <i class="fa fa-calendar"></i> Saturday, 24 February 2023
+                  </div>
+                  <div class="event-time">
+                    <i class="fa fa-clock-o"></i> 10:00 AM - 12:30 AM
+                  </div>
+                  <div class="event-address">
+                    <i class="fa fa-map-marker"></i> 343 - Nguyễn Hữu Cầu, tp
+                    Hải Dương
+                  </div>
+                  <a
+                    class="button small-button lightbox mfp-iframe"
+                    href="https://goo.gl/maps/ubEmEyb5nx7JaqVMA"
+                    title="Groom's house "
+                    >View in map</a
+                  >
+                </div>
+              </div>
+              <!-- /Ceremony Block -->
+
+              <!-- Party Block -->
+              <div class="col-md-6 event-block">
+                <div class="event-photo scale-image-effect">
+                  <img src="images/album/J_J08392.JPG" alt="" />
+                </div>
+
+                <div class="event-title">
+                  <h3>Bride's house</h3>
+                </div>
+
+                <div class="event-info">
+                  <div class="event-date">
+                    <i class="fa fa-calendar"></i> Saturday, 24 February 2023
+                  </div>
+                  <div class="event-time">
+                    <i class="fa fa-clock-o"></i> 10:00 AM - 12:30 AM
+                  </div>
+                  <div class="event-address">
+                    <i class="fa fa-map-marker"></i> Thôn Hồ Liễn, Xã Vĩnh Hưng,
+                    Huyện Bình Giang, Hải Dương (gần nhà văn hoá cũ)
+                  </div>
+                  <a
+                    class="button small-button lightbox mfp-iframe"
+                    href="https://goo.gl/maps/gLcA2Hij9smSNFTr5"
+                    title="Bride's house"
+                    >View in map</a
+                  >
+                </div>
+              </div>
+              <!-- /Party Block -->
+            </div>
+          </div>
+        </section>
+        <!-- /Wedding Events Section -->
+        
+        <!-- Our Story Section -->
+        <section id="story" class="our-story section-boxed section-bg-color">
+          <div class="container">
+            <div class="section-title">
+              <h2>Our Story</h2>
+            </div>
+            <!-- Story Row 1 -->
+            <div class="row story-row">
+              <div class="col-sm-12 col-md-5 story-block text-center">
+                <div class="story-image scale-image-effect">
+                  <img src="images/album/J_J08305.JPG" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-2 story-block text-center">
+                <div class="story-date">
+                  <div class="year">2022</div>
+                  <div class="month">Jan</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-5 story-block text-center">
+                <h3>Our First Meet</h3>
+              </div>
+              <div class="vertical-line"></div>
+            </div>
+            <!-- /Story Row 1 -->
+
+            <!-- Story Row 2 -->
+            <div class="row story-row">
+              <div class="col-sm-12 col-md-5 col-md-push-7 story-block text-center">
+                <div class="story-image scale-image-effect">
+                  <img src="images/album/J_J08465.JPG" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-2 story-block text-center">
+                <div class="story-date">
+                  <div class="year">2022</div>
+                  <div class="month">July 30</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-5 col-md-pull-7 story-block text-center">
+                <h3>Our First Date</h3>
+              </div>
+              <div class="vertical-line"></div>
+            </div>
+            <!-- /Story Row 2 -->
+
+            <!-- Story Row 3 -->
+            <div class="row story-row">
+              <div class="col-sm-12 col-md-5 story-block text-center">
+                <div class="story-image scale-image-effect">
+                  <img src="images/album/J_J08412.JPG" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-2 story-block text-center">
+                <div class="story-date">
+                  <div class="year">2022</div>
+                  <div class="month">Oct 12</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-5 story-block text-center">
+                <h3>We Fell In Love</h3>
+              </div>
+              <div class="vertical-line"></div>
+            </div>
+            <!-- /Story Row 3 -->
+            
+            <!-- Story Row 4 -->
+            <div class="row story-row">
+              <div class="col-sm-12 col-md-5 col-md-push-7 story-block text-center">
+                <div class="story-image scale-image-effect">
+                  <img src="images/album/picnic.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-2 story-block text-center">
+                <div class="story-date">
+                  <div class="year">2022</div>
+                  <div class="month">Oct 23</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-5 col-md-pull-7 story-block text-center">
+                <h3>Our First Outing</h3>
+              </div>
+              <div class="vertical-line"></div>
+            </div>
+            <!-- /Story Row 4 -->
+            
+            <!-- Story Row 5 -->
+            <div class="row story-row">
+              <div class="col-sm-12 col-md-5 story-block text-center">
+                <div class="story-image scale-image-effect">
+                  <img src="images/album/J_J08224.JPG" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-2 story-block text-center">
+                <div class="story-date">
+                  <div class="year">2022</div>
+                  <div class="month">Dec 18</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-5 story-block text-center">
+                <h3>He Proposed</h3>
+              </div>
+              <div class="vertical-line"></div>
+            </div>
+            <!-- /Story Row 5 -->
+          </div>
+        </section>
+        <!-- /Our Story Section -->
+
+        <!-- Gallery Section -->
+        <section
+          id="gallery"
+          class="gallery-grid gallery section-boxed section-bg-color"
+        >
+          <div class="container">
+            <div class="section-title">
+              <h2>Gallery</h2>
+            </div>
+
+            <!-- Gallery Items -->
+            <div id="bb-bookblock" class="bb-bookblock" style="box-shadow: 0 12px 20px -10px rgb(81 64 49 / 60%);">
+              <img src="images/album/J_J07830.JPG" alt=""/>
+              <div class="bb-item">
+                <img src="images/album/J_J08105.JPG" alt=""/>
+              </div>
+              <div class="bb-item">
+                <img src="images/album/J_J07830.JPG" alt=""/>
+              </div>
+              <div class="bb-item">
+                <img src="images/album/J_J07834.JPG" alt=""/>
+              </div>
+              <div class="bb-item">
+                <img src="images/album/J_J08086.JPG" alt=""/>
+              </div>
+              <div class="bb-item">
+                <img src="images/album/J_J07764.JPG" alt=""/>
+              </div>
+              <div class="bb-item">
+                <img src="images/album/J_J08394.JPG" alt=""/>
+              </div>
+            </div>
+            <nav class="gallery-action">
+              <a
+                id="bb-nav-prev"
+                href="#"
+                class="bb-custom-icon bb-custom-icon-arrow-left"
+                >Prev</a
+              >
+              <a
+                id="bb-nav-next"
+                href="#"
+                class="bb-custom-icon bb-custom-icon-arrow-right"
+                >Next</a
+              >
+            </nav>
+            <!-- /Gallery Items -->
+          </div>
+        </section>
+        <!-- /Gallery Section -->
+
+        <!-- Footer (Thank You block) -->
+        <footer id="thanks" class="footer">
+          <div
+            id="footer-image-block"
+            class="footer-image-block"
+            style="
+              background-image: url(images/album/J_J08348.JPG);
+              background-attachment: fixed;
+              background-position: center 170px;
+            "
+            data-stellar-background-ratio="0.3"
+          >
+            <div class="footer-mask"></div>
+          </div>
+
+          <div class="footer-title">
+            <h2>Thank you !</h2>
+          </div>
+        </footer>
+        <!-- /Footer (Thank You block) -->
+      </div>
+    </div>
+    <!-- /Main Container -->
+
+    <span class="up">
+      <img src="images/heart_img.png" alt="" />
+    </span>
+    <!-- end  -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="js/jquery.bookblock.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(window).on("load", function (event) {
+        $("body").removeClass("preloading");
+        $(".loading").delay(1000).fadeOut("fast");
+      });
+    </script>
+    <script>
+      var Page = (function () {
+        var config = {
+            $bookBlock: $("#bb-bookblock"),
+            $navNext: $("#bb-nav-next"),
+            $navPrev: $("#bb-nav-prev"),
+          },
+          init = function () {
+            config.$bookBlock.bookblock({
+              speed: 800,
+              shadowSides: 0.8,
+              shadowFlip: 0.7,
+            });
+            initEvents();
+          },
+          initEvents = function () {
+            var $slides = config.$bookBlock.children();
+
+            // add navigation events
+            config.$navNext.on("click touchstart", function () {
+              config.$bookBlock.bookblock("next");
+              return false;
+            });
+
+            config.$navPrev.on("click touchstart", function () {
+              config.$bookBlock.bookblock("prev");
+              return false;
+            });
+
+            // add swipe events
+            $slides.on({
+              swipeleft: function (event) {
+                config.$bookBlock.bookblock("next");
+                return false;
+              },
+              swiperight: function (event) {
+                config.$bookBlock.bookblock("prev");
+                return false;
+              },
+            });
+
+            // add keyboard events
+            $(document).keydown(function (e) {
+              var keyCode = e.keyCode || e.which,
+                arrow = {
+                  left: 37,
+                  up: 38,
+                  right: 39,
+                  down: 40,
+                };
+
+              switch (keyCode) {
+                case arrow.left:
+                  config.$bookBlock.bookblock("prev");
+                  break;
+                case arrow.right:
+                  config.$bookBlock.bookblock("next");
+                  break;
+              }
+            });
+          };
+
+        return { init: init };
+      })();
+    </script>
+    <script>
+      Page.init();
+    </script>
+  </body>
+</html>
